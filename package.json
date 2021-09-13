@@ -1,0 +1,36 @@
+{
+  "name": "cardclan-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "next-on-netlify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farangi/cardclan-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farangi/cardclan-landing/issues"
+  },
+  "homepage": "https://github.com/farangi/cardclan-landing#readme",
+  "dependencies": {
+    "next": "^10.2.3",
+    "next-on-netlify": "^2.8.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-multi-carousel": "^2.6.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.8"
+  }
+}
